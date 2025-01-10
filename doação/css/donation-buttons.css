@@ -1,0 +1,55 @@
+.donation-section {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #eee;
+}
+
+.donation-section h2 {
+    margin-bottom: 1rem;
+    color: var(--text-dark);
+}
+
+.donation-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.donation-btn {
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: var(--border-radius);
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+
+.donation-btn:hover {
+    background: var(--primary-dark);
+    transform: translateY(-2px);
+}
+
+.donation-btn.selected {
+    background: var(--primary-darker);
+    transform: translateY(1px);
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.donate-now-btn {
+    width: 100%;
+    background: var(--primary-darker);
+    color: white;
+    border: none;
+    border-radius: var(--border-radius);
+    padding: 1.2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+.donate-now-btn:hover {
+    background: var(--primary-dark);
+}

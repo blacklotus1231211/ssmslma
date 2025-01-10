@@ -1,0 +1,38 @@
+.header {
+    position: sticky;
+    top: 0;
+    background: var(--white);
+    box-shadow: var(--shadow-sm);
+    z-index: 100;
+}
+
+.nav {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logo-text {
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.nav-icons {
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-icons button {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+}

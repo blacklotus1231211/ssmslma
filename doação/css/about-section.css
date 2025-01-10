@@ -1,0 +1,54 @@
+.about-section {
+    background: var(--white);
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+    margin-bottom: 1.5rem;
+}
+
+.about-section h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.about-section p {
+    color: var(--text-light);
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+.campaign-details {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.detail-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    background: #f8f8f8;
+    border-radius: var(--border-radius);
+}
+
+.detail-icon {
+    font-size: 1.5rem;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--white);
+    border-radius: 50%;
+}
+
+.detail-info h4 {
+    margin-bottom: 0.25rem;
+}
+
+.detail-info p {
+    color: var(--text-light);
+    font-size: 0.9rem;
+    margin: 0;
+}
